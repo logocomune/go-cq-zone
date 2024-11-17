@@ -30,7 +30,7 @@ func GetZoneByNumber(id int) (CqZone, bool) {
 
 }
 
-func GetGoeJson() FeatureCollection {
+func GetGeoJson() FeatureCollection {
 	return zonesToGeoJSON(zones)
 }
 
